@@ -10,6 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
+let fullName= "Yousef alshawaf";
+let yearOfBirth= 1995;
+let hobby= "Kick boxing";
+let funFact= "Coding can makes you an entrepreneur";
+const image = "https://storage.googleapis.com/pod_public/750/192064.jpg";
 
 
 
@@ -21,17 +26,17 @@
  * Create the following new variables that interpolate
  * the variables defined above into strings.
  *
- * 1. fullNameString      -> assign it to: My name is {fullName}
- * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
- * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
+ * 1. fullNameString      -> assign it to: My name is {Yousef alshawaf}
+ * 2. yearOfBirthString   -> assign it to: I am {29}, and make sure you calculate your age from your year of birth
+ * 3. hobbyString         -> assign it to: My hobby is {Kick boxing}
  * 
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString =`I am ${2024-1995}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 
 
@@ -45,14 +50,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars=stars + 1
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars=stars - 1
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars=stars + 2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars=stars - 2 
 }
